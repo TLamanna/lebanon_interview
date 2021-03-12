@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.com"
+baseurl = "https://fervent-cray-6da21c.netlify.app/"
 languageCode = "en-us"
 title = "Hugo Stellar Theme"
 theme = "stellar"
