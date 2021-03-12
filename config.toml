@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://fervent-cray-6da21c.netlify.app//"
+baseurl = "https://example.com"
 languageCode = "en-us"
 title = "Hugo Stellar Theme"
 theme = "stellar"
@@ -8,9 +8,9 @@ googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
-    title = "LibraryVPN"
-    description = 'Here is one of the coolest new things happening in libraries'
-    image = "images/logo.svg"
+    title = "Getting To Know Privacy"
+    description = 'If there is one thing you learn today, let it be how to better protect your privacy.'
+	image = "images/logo.svg"
 
   [[params.navigation]]
     name = "Introduction"
@@ -20,45 +20,49 @@ googleAnalytics = "" #put your google-analytics ID here
     name = "First Section"
     href = "#first"
 
-#  [[params.navigation]]
-#    name = "Second Section"
-#    href = "#second"
-
   [[params.navigation]]
-    name = "Get Started"
-    href = "#cta"
+    name = "Second Section"
+    href = "#second"
+
+#  [[params.navigation]]
+#    name = "Get Started"
+#    href = "#cta"
 
   [params.intro]
-    title = "Ipsum sed adipiscing"
-    description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
-    image = "images/pic01.jpg"
-    [[params.intro.action]]
-      buttontext = "Learn More"
-      href = "generic.html"
+    title = "Introduction to Basic Privacy"
+    description = "Come check out some resources on how to take your first steps in protecting your privacy both in-person and online"
+    image = "images/TJ.png"
+#    [[params.intro.action]]
+#      buttontext = "Learn More"
+#      href = "generic.html"
 
 
   [[params.section]]
     id = "first"
-    title = "Magna veroeros"
+    title = "Other Resources"
     description = ""
     
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
       [[params.section.feature]]
-        title = "Ipsum consequat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-code"
+        title = "Virtual Privacy Lab"
+        description = "San Jose has an amazing privacy lab that will help you on your journey."
+        image = "images/sanjose.png"
+        url = "https://www.sjpl.org/privacy"
 
       [[params.section.feature]]
-        title = "Amed sed feugiat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-copy"
+        title = "Library Freedom Project"
+        description = "Check out this organization for all your privacy needs."
+        image = "images/1_6QpyPNhHukxesxJGivn-jg.png"
+        url = "https://libraryfreedom.org"
 
       [[params.section.feature]]
-        title = "Dolor nullam"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-diamond"
+        title = "Electronic Frontier Foundation"
+        description = "The Electronic Frontier Foundation is an international non-profit digital rights group based in San Francisco, California."
+        image = "images/eff.png"
+        url = "https://www.eff.org/"
+    
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
@@ -104,33 +108,33 @@ googleAnalytics = "" #put your google-analytics ID here
         buttonUrl = "generic.html"
 
 
-  [[params.section]]
-    id = "cta"
-    title = "Congue imperdiet"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-    [params.section.footer]
-      enable = true
-      [[params.section.footer.action]]
-        buttontext = "Get Started"
-        buttonUrl = "generic.html"
-        customClass = "special"
-      [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+#  [[params.section]]
+#    id = "cta"
+#    title = "Congue imperdiet"
+#    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+#    [params.section.footer]
+#      enable = true
+#      [[params.section.footer.action]]
+#        buttontext = "Get Started"
+#        buttonUrl = "generic.html"
+#        customClass = "special"
+#      [[params.section.footer.action]]
+#        buttontext = "Learn More"
+#        buttonUrl = "generic.html"
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    title = "Learn More"
+    description = "Please visit our libraries for more information on these topics. We'll be happy to help you!"
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Location and Contact Information"
+    address = "9 E Park St, Lebanon, New Hampshire 03766"
+    phone = "(603) 448-2459"
+    email = "tlamanna42@gmail.com"
 
-    [[params.footer.action]]
-      href = "generic.html"
-      buttontext = "Learn More"
+#    [[params.footer.action]]
+#      href = "generic.html"
+#      buttontext = "Learn More"
 
     # social icons
     [params.footer.social_list]
@@ -159,9 +163,9 @@ googleAnalytics = "" #put your google-analytics ID here
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
-        link = "#"
+        link = "mailto:tlamanna42@gmail.com"
 
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
+      text = "© T.J. Lamanna, Design: [HTML5UP](//html5up.net)"
