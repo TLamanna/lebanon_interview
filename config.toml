@@ -71,35 +71,35 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "second"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "Some Stats"
+    description = "Below are some statistics about privacy initiatives."
 
     [params.section.statistics]
       enable = true
       [[params.section.statistic]]
         icon = "fa-code-fork"
-        value = "5,120"
-        text = "Etiam"
+        value = "71%"
+        text = "HTTPS Traffice"
       [[params.section.statistic]]
         icon = "fa-folder-open-o"
-        value = "8,192"
-        text = "Magna"
+        value = "10.0.12"
+        text = "Current Tor Version"
       [[params.section.statistic]]
         icon = "fa-signal"
-        value = "2,048"
-        text = "Tempus"
+        value = "80%"
+        text = "Percentage of People Concerned About Privacy"
       [[params.section.statistic]]
         icon = "fa-laptop"
-        value = "4,096"
-        text = "Aliquam"
-      [[params.section.statistic]]
-        icon = "fa-diamond"
-        value = "1,024"
-        text = "Nullam"
+        value = "68%"
+        text = "People Who Have Used a VPN"
+#      [[params.section.statistic]]
+#        icon = "fa-diamond"
+#        value = "1,024"
+#        text = "Nullam"
 
     [params.section.content]
       enable = true
-      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+      text = "There are many aspects to protecting your privacy, from using a Virtual Private Network (VPN) to simple things as wearing a mask to defeat facial recognition software. Other things that you can do to protect yourself is to make sure you're using a privacy screen to make sure people can't check out what you're looking at! You can also uses a operating system called TAILS that allows you to spin up a instance of the operating system that will completely wipe when you log off! Privacy is a tricky thing, and requires some skill and dedication to make it work. There will always be a trade off between privacy and convienence."
 
     [params.section.footer]
       enable = true
