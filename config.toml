@@ -17,11 +17,11 @@ googleAnalytics = "" #put your google-analytics ID here
     href = "#intro"
 
   [[params.navigation]]
-    name = "First Section"
+    name = "Intro To Privacy"
     href = "#first"
 
   [[params.navigation]]
-    name = "Second Section"
+    name = "Statistics"
     href = "#second"
 
 #  [[params.navigation]]
@@ -59,7 +59,7 @@ googleAnalytics = "" #put your google-analytics ID here
 
       [[params.section.feature]]
         title = "Electronic Frontier Foundation"
-        description = "The Electronic Frontier Foundation is an international non-profit digital rights group based in San Francisco, California."
+        description = "The Electronic Frontier Foundation is an international non-profit digital rights group based in San Francisco, California. For in depth information on all things technology related, please check them out!"
         image = "images/eff.png"
         url = "https://www.eff.org/"
     
