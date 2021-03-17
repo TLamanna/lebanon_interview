@@ -79,7 +79,7 @@ googleAnalytics = "" #put your google-analytics ID here
       [[params.section.statistic]]
         icon = "fa-code-fork"
         value = "71%"
-        text = "HTTPS Traffice"
+        text = "HTTPS Traffic"
       [[params.section.statistic]]
         icon = "fa-folder-open-o"
         value = "10.0.12"
