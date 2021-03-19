@@ -40,7 +40,7 @@
                     <ul class="features">
                       {{ range $count, $feature := $section.feature }}
                       <li>
-                            <a href="{{ $feature.url }}" class="active" target="_blank"><span class="logo"><img class="icon major" src="{{ $feature.image }}" height="200px" width="250px" /></span></a>
+                            <span class="logo"><a href="{{ $feature.url }}" class="active" target="_blank"><img class="icon major" src="{{ $feature.image }}" height="200px" width="250px" /></span></a>
                         <!-- <span class="icon major style{{ add $count 1 }} {{ $feature.icon }}"></span> -->
                         <h3>{{ $feature.title }} </h3>
                         <p>{{ $feature.description | markdownify }}</p>
