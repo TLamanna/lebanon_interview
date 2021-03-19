@@ -4,7 +4,6 @@ languageCode = "en-us"
 title = "Hugo Stellar Theme"
 theme = "stellar"
 
-googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
@@ -86,12 +85,12 @@ googleAnalytics = "" #put your google-analytics ID here
         text = "Current Tor Version"
       [[params.section.statistic]]
         icon = "fa-signal"
-        value = "80%"
+        value = "80"
         text = "Percentage of People Concerned About Privacy"
       [[params.section.statistic]]
         icon = "fa-laptop"
-        value = "68%"
-        text = "People Who Have Used a VPN"
+        value = "25%"
+        text = "People Who Have Used A VPN"
 #      [[params.section.statistic]]
 #        icon = "fa-diamond"
 #        value = "1,024"
